@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp"
+
+        android:textStyle="bold"
+
+        android:gravity="center"
+
+        android:paddingBottom="20dip"
+
+        android:text="    DATA USAGE"
+        android:id="@+id/dataused" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp"
+
+        android:textColor="#424242"
+
+        android:gravity="center"
+
+        android:text="Transmit Bytes"
+        android:id="@+id/abc"
+        android:layout_weight="0.25" />
+
+    <TextView
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:textSize="14sp"
+
+        android:gravity="center"
+
+        android:text="0"
+
+        android:id="@+id/TX"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp"
+
+        android:textColor="#424242"
+
+        android:gravity="center"
+
+        android:text="Receive Bytes"
+        android:id="@+id/def"
+        android:layout_weight="0.26" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="26dp"
+
+        android:textSize="14sp"
+
+        android:gravity="center"
+
+        android:text="0"
+
+        android:id="@+id/RX" />
+
+</LinearLayout>
